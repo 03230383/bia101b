@@ -24,6 +24,7 @@
 # ?3. Print the result
 
 # 1. Get user input
+
 userInput = input('Please type any number: ')
 userInputType = type(userInput)
 print('The type of user input is:', userInputType)
