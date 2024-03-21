@@ -65,11 +65,10 @@ def greet(name):
  Returns:
 str: The greeting message.
 """
-greeting = f"Hello, {name}!":
-return greeting
+
 
 print(greet("Alice")) # Output: Hello, Alice!
-print(greet._doc_) # Print the docstring
+print(greet.__doc__) # Print the docstring
 
 #! Annotations:
 def multiply(a: int, b: int) -> int:
