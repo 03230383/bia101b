@@ -18,6 +18,7 @@ def bubble_sort(arr):
             if element > elementright:
                 arr[k] = elementright
                 arr[k+1] = element
+                print('swapped:', arr)
+                print('===================')
 
 bubble_sort(input_arr)
-
